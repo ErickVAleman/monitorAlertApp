@@ -1,0 +1,14 @@
+{
+  "name": "super_promociones",
+  "version": "1.0.0",
+  "description": "App de alertas",
+  "main": "index.js",
+  "repository": "https://github.com/Electronapp",
+  "author": "Erick Aleman",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "electron": "^1.7.12",
+    "webpack": "^3.10.0"
+  }
+}

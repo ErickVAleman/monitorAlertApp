@@ -1,0 +1,11 @@
+#   gitignore
+#   node_modules para no subir librerias que bien podemos descargar con yarn o npm
+
+/node_modules
+
+#   Archivos de configuracion de bases de datos, etc.
+
+/lib/config.js
+yarn-error.log
+yarn.lock
+.eslinstrc.js
