@@ -1,1 +1,5 @@
-"# monitorAlertApp" 
+# monitorAlertApp
+## Instalacion 
+-   electron
+-   rastsat
+-   webfrontend
