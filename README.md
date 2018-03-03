@@ -1,5 +1,8 @@
 # monitorAlertApp
-## Instalacion 
+## Componentes 
 -   electron
 -   rastsat
 -   webfrontend
+
+### electron
+| yarn install
