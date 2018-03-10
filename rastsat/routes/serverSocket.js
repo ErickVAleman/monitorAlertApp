@@ -1,9 +1,9 @@
-const express   = require('express');
-const router    = express.Router();
-const socketIO  = require('socket.io');
-const chalk     = require('chalk');
-const codewincajadb  = require('../lib/index');
-const config         = require('../lib/config');
+const express         = require('express');
+const router          = express.Router();
+const socketIO        = require('socket.io');
+const chalk           = require('chalk');
+const codewincajadb   = require('../lib/index');
+const config          = require('../lib/config');
 
 
   async function runZR()
@@ -49,46 +49,55 @@ const config         = require('../lib/config');
   }
   
   const checkClavProd = () => {
-    const promise = new Promise((resolve, reject)=> {
+    return new Promise((resolve, reject)=> {
       //intervalo
       setInterval(()=> {
         runZR().then( data => {
-          console.log('ZR');
-          console.log(data);
+          //=====================================
+          console.log('ZR'); console.log(data);
+          //=====================================
         }).catch((e)=>{
           console.log(`Message: Error del servidor ${e}`)
+          
         })
     
         runVC().then( data => {
-          console.log('VC');
-          console.log(data);
+          //=====================================
+          console.log('VC'); console.log(data);
+          //=====================================
         }).catch((e)=>{
           console.log(`Message: Error del servidor ${e}`)
+          
         })
     
         runOL().then( data => {
-          console.log('OL');
-          console.log(data);
+          //=====================================
+          console.log('OL'); console.log(data);
+          //=====================================
         }).catch((e)=>{
           console.log(`Message: Error del servidor ${e}`)
+          
         })
     
         runJL().then( data => {
-          console.log('JL');
-          console.log(data);
+          //=====================================
+          console.log('JL'); console.log(data);
+          //=====================================
         }).catch((e)=>{
           console.log(`Message: Error del servidor ${e}`)
+          
         })
     
         runBO().then( data => {
-          console.log('BO');
-          console.log(data);
+          //=====================================
+          console.log('BO'); console.log(data);
+          //=====================================
         }).catch((e)=>{
           console.log(`Message: Error del servidor ${e}`)
+          
         })
       }, 120000)
     })  
-    return promise
   }
 
 /**
@@ -117,7 +126,7 @@ const config         = require('../lib/config');
   {
     console.error(`${chalk.red('[codewincaja-db:Mensaje]')} `, err.message)
     console.error(`${chalk.red('[codewincaja-db:Detalle]')} `, err.stack)
-    process.exit(0)
+    // process.exit(1)
   }
 
   module.exports = {initialize}
