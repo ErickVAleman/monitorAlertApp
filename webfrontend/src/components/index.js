@@ -4,7 +4,7 @@ const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
 import "../assets/css/style.css";
 
-class menu extends Component {
+class VistaPrincipal extends Component {
   state = {
     collapsed: false
   };
@@ -32,7 +32,8 @@ class menu extends Component {
                     <Icon type="pie-chart" />
                     <span>Reportes</span>
                   </span>
-                }>
+                }
+              >
                 <Menu.Item key="2">Reporte de Venta</Menu.Item>
                 <Menu.Item key="3">Reporte de Compras</Menu.Item>
                 <Menu.Item key="4">Reporte Mensual</Menu.Item>
@@ -96,4 +97,4 @@ class menu extends Component {
   }
 }
 
-export default menu;
+export default VistaPrincipal;
