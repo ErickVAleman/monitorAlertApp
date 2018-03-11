@@ -1,13 +1,21 @@
 body {
-    padding: 0vh;
-    margin: 0vh
-}
-.App {
-    text-align: center;
+  padding: 0vh;
+  margin: 0vh;
 }
 
-#components-layout-demo-responsive .logo {
-    height: 32px;
-    background: rgba(255,255,255,.2);
-    margin: 16px;
-  }
+.App {
+  text-align: center;
+}
+
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.app-header {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
