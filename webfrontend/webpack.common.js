@@ -56,23 +56,24 @@ module.exports = {
             }
           ],
           fallback: "style-loader"
-      })
+        })
       },
       {
         test: /\.less$/,
-        use: extractLESS.extract({ //["css-loader", "less-loader"]
+        use: extractLESS.extract({
+          //["css-loader", "less-loader"]
           use: [
             {
-              loader: 'css-loader',
+              loader: "css-loader"
             },
             {
-              loader: 'less-loader',
+              loader: "less-loader",
               options: {
                 modifyVars: themeVariables
-              },
-            },
+              }
+            }
           ],
-          fallback: 'style-loader'
+          fallback: "style-loader"
         })
       },
       {

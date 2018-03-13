@@ -9,12 +9,11 @@ body {
 
 .logo {
   height: 32px;
-  background: rgba(255, 255, 255, 0.2);
   margin: 16px;
+  size: 10vh;
 }
 
 .app-header {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 200%;
 }
