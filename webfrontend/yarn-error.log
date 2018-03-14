@@ -52,6 +52,7 @@ npm manifest:
       "babel-core": "^6.26.0",
       "less": "2.7.1",
       "less-loader": "4.0.4",
+      "prop-types": "^15.6.1",
       "react": "^16.2.0",
       "react-dom": "^16.2.0",
       "react-router-dom": "^4.2.2",
@@ -4763,7 +4764,7 @@ Lockfile:
     dependencies:
       asap "~2.0.3"
   
-  prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.9:
+  prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.9, prop-types@^15.6.1:
     version "15.6.1"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
     dependencies:
@@ -6637,7 +6638,7 @@ Trace:
   Exit code: 3221225786
   Command: C:\Windows\system32\cmd.exe
   Arguments: /d /s /c webpack-dev-server --color --config webpack.dev.js
-  Directory: C:\Users\Erick\Documents\GitHub\monitorAlertApp\webfrontend
+  Directory: C:\Users\Erick\Documents\GitHub\monitorAlertApp\WebFrontend
   Output:
   
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)

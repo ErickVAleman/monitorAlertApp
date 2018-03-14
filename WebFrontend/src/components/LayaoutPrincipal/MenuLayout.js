@@ -8,7 +8,7 @@ class Lmenu extends Component {
   render() {
     return (
       <div>
-        <Sider breakpoint="xl" collapsedWidth="0" onCollapse={this.onCollapse} style= {{minHeight: '100vh'}}>
+        <Sider breakpoint="xl" collapsedWidth="0" style= {{minHeight: '100vh'}}>
           <div className="logo">
             <Avatar
               style={{ backgroundColor: "#f56a00", margin: "0 35%" }}
