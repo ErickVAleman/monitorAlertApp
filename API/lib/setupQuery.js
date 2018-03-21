@@ -32,6 +32,13 @@ module.exports = function(config) {
     return rows;
   }
 
+  async function cotizacion (config){
+    const db = codewincajadb(config);
+    const query = `
+      
+    `
+  }
+
   return {
     findByNoClaveSat,
     findByNoUtility
