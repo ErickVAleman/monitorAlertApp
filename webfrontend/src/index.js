@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import Theme from "./components/index";
+import {BrowserRouter} from 'react-router-dom'
+import Index from './components/index'
 import "./assets/css/style.css";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Theme />
+        <BrowserRouter>        
+          <Index />
+        </BrowserRouter>
       </div>
     );
   }

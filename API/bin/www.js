@@ -5,7 +5,7 @@ var app = require('../app');
 var debug = require('debug')('rastsat:server');
 var http = require('http');
 var chalk = require('chalk')
-var socketIO = require('../routes/serverSocket');
+var socketIO = require('../routes/socket');
 
 
 /**
