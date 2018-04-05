@@ -10,7 +10,9 @@ class menu extends Component {
   componentDidMount() {
     const { endpoint } = this.state;
     const socket = socketIOClient(endpoint);
-    socket.on("message", data => this.setState({ response: data }));
+    socket.on(
+      "message", data => this.setState({ response: data })
+    );
   }
 
   render() {

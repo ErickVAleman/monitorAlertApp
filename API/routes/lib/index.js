@@ -1,3 +1,4 @@
+  
 const codewincajadb = require("../../lib/index");
 const config = require("../../lib/config");
 
@@ -38,14 +39,7 @@ async function NoUtility() {
     .catch(handleFatalError);
   return item;
 }
-
-// async function NoUtility63() {
-//   const { setupQ } = await codewincajadb(config.spa63).catch(handleFatalError);
-//   const item = await setupQ
-//     .findByNoUtility(config.spa63, 2, 1)
-//     .catch(handleFatalError);
-//   return item;
-// }
+ 
 
 const handleFatalError = err => {
   console.error(`${chalk.red("[codewincaja-db:Mensaje]")} `, err.message);
